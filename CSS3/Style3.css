@@ -1,0 +1,98 @@
+body {
+	background-image: url("Totoro.gif");
+}
+h1 {
+	font-family: 'Satisfy', cursive;
+	font-size: 80px;
+	color: pink;
+	
+}
+
+h2 {font-family: 'Satisfy', cursive;
+	font-size: 40px;
+	color: hotpink;}
+
+h3 {font-family: 'Permanent Marker', cursive;	
+font-size: 40px;
+	color: Yellow;}
+
+h4 {font-family: 'Permanent Marker', cursive;	
+font-size: 40px;
+	color: Yellow;}
+
+p1 {
+	font-size: 25px;
+	font-family: 'Permanent Marker', cursive;
+	color: purple;
+}
+
+p2 {
+	font-size: 25px;
+	font-family: 'Permanent Marker', cursive;
+	color: purple;
+}
+
+p3 {
+	font-size: 25px;
+	font-family: 'Permanent Marker', cursive;
+	color: purple;
+}
+
+p {text-align: center;
+	font-size: 15px;
+	font-family: 'Permanent Marker', cursive;
+	color: black;}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	/*width: 100px;*/
+	overflow: hidden;
+	background-color: lightblue;
+	position: fixed;}
+
+li {float: left;
+}
+li a {display: block;
+	color: purple;
+	text-align: center;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: black;
+	color: purple;
+}
+.active {
+	background-color: pink;
+}
+
+.column {float: left;
+width: 30%;
+padding: 10px;
+}
+
+.row: :after {content: "";
+clear: both; 
+display: table;
+}
+
+button {background-color: pink;
+	border: none;
+color: purple;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+img {display: flex;
+	height: 300px;
+	width: 200px;
+	border-width: 30%;
+	padding: 10px;
+	/*border-radius: 50%};*/
+	
+
