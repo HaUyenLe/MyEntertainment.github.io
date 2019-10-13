@@ -20,6 +20,10 @@ h4 {font-family: 'Permanent Marker', cursive;
 font-size: 40px;
 	color: Yellow;}
 
+h5 {font-family: 'Permanent Marker', cursive;	
+font-size: 30px;
+	color: Yellow;}
+
 p1 {
 	font-size: 25px;
 	font-family: 'Permanent Marker', cursive;
@@ -54,6 +58,7 @@ ul {
 
 li {float: left;
 }
+
 li a {display: block;
 	color: purple;
 	text-align: center;
@@ -64,6 +69,7 @@ li a:hover {
 	background-color: black;
 	color: purple;
 }
+
 .active {
 	background-color: pink;
 }
@@ -93,6 +99,5 @@ img {display: flex;
 	width: 200px;
 	border-width: 30%;
 	padding: 10px;
-	/*border-radius: 50%};*/
 	
 

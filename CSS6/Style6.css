@@ -1,14 +1,14 @@
 body {
-	background-image: url("Kdramas.gif");
+	background-image: url("Aurora.gif");
 }
 h1 {
 	font-family: 'Satisfy', cursive;
 	font-size: 80px;
-	color: #ffccff;}
+	color: #99e7ff;}
 
 h2 {font-family: 'Satisfy', cursive;
 	font-size: 40px;
-	color: hotpink;}
+	color: #33cfff;}
 
 h3 {font-family: 'Permanent Marker', cursive;	
 font-size: 40px;
@@ -17,7 +17,7 @@ font-size: 40px;
 h4 {font-family: 'Permanent Marker', cursive;	
 font-size: 40px;
 	color: Yellow;}
-	
+
 	ul {
 	list-style-type: none;
 	margin: 0;
@@ -59,7 +59,8 @@ cursor: pointer;
 p {text-align: center;
 	font-size: 15px;
 	font-family: 'Permanent Marker', cursive;
-	color: #00802b;}
+	color: #99e7ff;
+	text-decoration: none}
 
 p1 {font-size: 25px;
 	font-family: 'Permanent Marker', cursive;
