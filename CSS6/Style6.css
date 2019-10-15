@@ -1,13 +1,18 @@
 body {
-	background-image: url("Aurora.gif");
+	background-image: url("Scenery.gif"), url("Scenery.gif");
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	background-position: left, right; 
+	background-color: white;
 }
+
 h1 {
 	font-family: 'Satisfy', cursive;
-	font-size: 80px;
+	font-size: 45px;
 	color: #99e7ff;}
 
 h2 {font-family: 'Satisfy', cursive;
-	font-size: 40px;
+	font-size: 30px;
 	color: #33cfff;}
 
 h3 {font-family: 'Permanent Marker', cursive;	
@@ -59,8 +64,8 @@ cursor: pointer;
 p {text-align: center;
 	font-size: 15px;
 	font-family: 'Permanent Marker', cursive;
-	color: #99e7ff;
-	text-decoration: none}
+	color: #66ccff;
+	text-decoration-style: none;}
 
 p1 {font-size: 25px;
 	font-family: 'Permanent Marker', cursive;

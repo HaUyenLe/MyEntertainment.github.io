@@ -1,0 +1,98 @@
+body {
+	background-image: url("Scenery.gif"), url("Scenery.gif");
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	background-position: left, right; 
+	background-color: white;
+}
+
+h1 {
+	font-family: 'Satisfy', cursive;
+	font-size: 45px;
+	color: #99e7ff;}
+
+h2 {font-family: 'Satisfy', cursive;
+	font-size: 30px;
+	color: #33cfff;}
+
+h3 {font-family: 'Permanent Marker', cursive;	
+font-size: 15px;
+	color: black;}
+
+h4 {font-family: 'Permanent Marker', cursive;	
+font-size: 15px;
+	color: black;}
+
+h5 {font-family: 'Permanent Marker', cursive;	
+font-size: 15px;
+	color: black;}
+
+
+	ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	/*width: 100px;*/
+	overflow: hidden;
+	background-color: lightblue;
+	position: fixed;}
+
+li {float: left;
+}
+
+li a {display: block;
+	color: purple;
+	text-align: center;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: black;
+	color: purple;
+}
+
+
+.active {
+	background-color: pink;
+}
+
+button {background-color: pink;
+	border: none;
+color: purple;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+p {text-align: center center;
+	font-size: 15px;
+	font-family: 'Permanent Marker', cursive;
+	color: #99e7ff;
+	text-decoration: none;}
+
+p1 {font-size: 25px;
+	font-family: 'Permanent Marker', cursive;
+	color: pink;}
+
+p2 {font-size: 25px;
+	font-family: 'Permanent Marker', cursive;
+	color: pink;}
+
+.column {float: left;
+width: 30%;
+padding: 10px;
+}
+
+.row: :after {content: "";
+clear: both; 
+display: table;
+}
+
+img {display: flex;
+	height: 250px;
+	width: 500px;
+	border-width: 30%;
+	padding: 10px;
+	border-color: White}
